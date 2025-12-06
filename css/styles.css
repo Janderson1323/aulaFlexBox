@@ -1,14 +1,21 @@
 * {
     margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bbb;
 }
 
 .bloco  {
-    width: 90px;
+    width: 280px;
     height: 200px;
     margin: 20px;
-    
-    
-    
+    background-color: #fff;
+}
+
+.bloco:hover {
+    border: 20px solid red;
 }
 
 .container-dos-blocos {
