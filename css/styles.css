@@ -4,13 +4,18 @@
 
 .bloco  {
     width: 90px;
-    height: 280px;
+    height: 200px;
     margin: 20px;
+    
+    
     
 }
 
 .container-dos-blocos {
+    
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    
 }
+
