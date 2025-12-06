@@ -1,3 +1,16 @@
-h1 {
-    color: red;
+* {
+    margin: 0px;
+}
+
+.bloco  {
+    width: 90px;
+    height: 280px;
+    margin: 20px;
+    
+}
+
+.container-dos-blocos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
